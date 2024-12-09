@@ -1,0 +1,107 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #F0E68C
+}
+.center{
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2
+{
+    color: #F0E68C;
+    text-align: center;
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: 	#F0E68C;
+}
+
+.formulario{
+/* Contêiner do formulário */
+form {
+    border-radius: 10px; /* Borda arredondada para visual mais confortável */
+    padding: 25px 30px; /* Espaçamento */
+    width: 100%;
+    max-width: 500px; /* Largura máxima */
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #F0E68C; /* Cor principal do título */
+    margin-bottom: 10px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+}
+
+/* Inputs e textarea */
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #F0E68C; /* Cor da borda */
+    border-radius: 10px; /* Arredondamento */
+    font-size: 16px;
+    transition: border-color 0.3s; /* Transição suave ao foco */
+}
+
+/* Estilo ao focar */
+input:focus, textarea:focus {
+    border-color: #F0E68C; /* Cor da borda ao focar */
+    outline: none;
+}
+
+/* Botão de enviar */
+button {
+    background-color: #F0E68C; /* Cor de fundo do botão */
+    color: #000000; /*Cor do texto*/
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+/* Hover no botão de enviar*/
+button:hover {
+    background-color: #00ff37;
+}
+
+}
